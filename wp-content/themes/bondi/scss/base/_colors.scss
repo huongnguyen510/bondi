@@ -1,0 +1,29 @@
+// COLORS
+// Define all color variables in this document
+// Use http://chir.ag/projects/name-that-color/ for naming a color.
+
+$black: #000;
+$white: #fff;
+
+$dark-blue: #19283f;       // bg-header
+$navy-blue: #1a2940;       // title-block
+$gray-blue: #a8b9c0;       // text-normal 
+$aqua: #33d1cc;           // 
+$red: #ff3150;            // bg-btn
+$yellow: #ffc400;         // bg-newsletter
+$light-yellow: #ffc501;   // btn-text
+
+// Brand colors
+$primary-color: $dark-blue;
+$second-color: $aqua;
+$text-color: $gray-blue;
+$title-color: $navy-blue;
+
+// Button color
+$btn-bg: $red;
+$btn-text: $light-yellow;
+$btn-bg-hover: lighten($primary-color, 25%);
+
+// Link color
+$link-color: $primary-color;
+$link-color-hover: lighten($primary-color, 25%);

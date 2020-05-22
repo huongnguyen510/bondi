@@ -1,0 +1,21 @@
+// FONTS
+// Import all webfonts here
+//https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6
+
+// For example:
+// @include font-face(bondi, fonts/bondi);
+// @include font-face(SourceSansPro, fonts/SourceSansPro-BoldItalic, 700, italic);
+// @include font-face(SourceSansPro, fonts/SourceSansPro-Regular, 400, normal);
+// @include font-face(SourceSansPro, fonts/SourceSansPro-Italic, 400, italic);
+
+@font-face {
+  font-family: Roboto;
+  src:url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
+      url('../fonts/Roboto/Roboto-Black.ttf') format('truetype'),
+      url('../fonts/Roboto/Roboto-Medium.ttf') format('truetype'),
+      url('../fonts/Roboto/Roboto-Thin.ttf') format('truetype'),
+      url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype'),
+      url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;  
+ }

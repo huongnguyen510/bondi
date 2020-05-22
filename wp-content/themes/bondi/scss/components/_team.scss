@@ -1,0 +1,28 @@
+.team {
+  background: #eff7fa;
+
+  &__list {
+    padding-bottom: 50px;
+  }
+
+  &__item {
+    width: 23%;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+
+  &__name {
+    padding: 15px 0;
+    background: $second-color;
+    color: white;
+  }
+
+  &__motto {
+    padding: 20px 15px;
+  } 
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+}

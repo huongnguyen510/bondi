@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'DTLNobelT';
+  src: url('DTLNobelT.woff') format('woff'),
+       url('DTLNobelT.ttf') format('truetype'),
+       url('DTLNobelT.svg#DTLNobelT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+

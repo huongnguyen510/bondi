@@ -1,0 +1,37 @@
+{
+  "bgLists": [
+    {
+      "label": "Brand Color",
+      "type": "normal",
+      "items": [
+        {
+          "label": "$primary-color",
+          "code": "#19283f"
+        },
+        {
+          "label": "$second-color",
+          "code": "#33d1cc"
+        },
+        {
+          "label": "$text-color",
+          "code": "#a8b9c0"
+        },
+        {
+          "label": "$title-color",
+          "code": "#1a2940"
+        }
+      ]
+    },
+    {
+      "label": "Dark backgrounds",
+      "type": "normal",
+      "items": [
+        {
+          "label": "bg--primary text--white",
+          "code": "#112146"
+        }
+      ]
+    }
+  ]
+}
+

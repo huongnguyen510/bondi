@@ -1,0 +1,101 @@
+{
+  "brandColors": {
+    "items": [
+      {
+        "include()": {
+          "pattern": "base-elements-colors",
+          "with": {
+            "colors": [
+              {
+                "variable": "$primary-color",
+                "code": "#19283f"
+              },
+              {
+                "variable": "$second-color",
+                "code": "#33d1cc"
+              },
+              {
+                "variable": "$text-color",
+                "code": "#a8b9c0"
+              },
+              {
+                "variable": "$title-color",
+                "code": "#1a2940"
+              }              
+            ]
+          }
+        }
+      },
+      {
+        "include()": {
+          "pattern": "base-elements-colors",
+          "with": {
+            "colors": [
+              {
+                "variable": "$black",
+                "code": "#000"
+              },
+              {
+                "variable": "$dark-blue",
+                "code": "#19283f"
+              },
+              {
+                "variable": "$navy-blue",
+                "code": "#1a2940"
+              },
+              {
+                "variable": "$yellow",
+                "code": "#ffc400"
+              },
+              {
+                "variable": "$light-yellow",
+                "code": "#ffc501"
+              },
+              {
+                "variable": "$aqua",
+                "code": "#33d1cc"
+              },
+              {
+                "variable": "$red",
+                "code": "#ff3150"
+              },
+              {
+                "variable": "$gray-blue",
+                "code": "#a8b9c0"
+              },
+              {
+                "variable": "$white",
+                "code": "#fff"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "include()": {
+          "pattern": "base-elements-colors",
+          "with": {
+            "colors": [
+              {
+                "variable": "bg-dark-blue",
+                "code": "#19283f"
+              },
+              {
+                "variable": "bg-aqua",
+                "code": "#33d1cc"
+              },
+              {
+                "variable": "bg-yellow",
+                "code": "#ffc400"
+              },
+              {
+                "variable": "bg-red",
+                "code": "#ff3150"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+.portfolio {
+  text-align: center;
+  background: #eff7fa;
+
+  .show {
+    display: block;
+  }
+
+  &__block {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  &__tab {
+    margin-top: 48px;
+    margin-bottom: 44px;
+
+    button {
+      margin: 0 14px;
+    }
+  }
+
+  &__grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .cell {
+      padding: 15px;
+      float: left;
+      width: 25%;
+      // display: none;
+
+      .content {
+        background: $second-color;
+        width: 270px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+          color: white;
+          font-size: 20px;
+        }
+
+        p {
+          color: black;
+        }
+      }
+    }
+  }
+
+  &__link {
+    padding-bottom: 50px;
+  }
+}
