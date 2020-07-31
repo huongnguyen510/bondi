@@ -1,0 +1,32 @@
+.newsletter {
+  padding: 20px 0;
+
+  .container {
+    padding: 0 100px;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 20px;
+    color: $navy-blue;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+
+  input[type="email"] {
+    width: 45%;
+    padding-bottom: 7px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+  }
+
+  input::placeholder {
+    color: white;
+  }
+}

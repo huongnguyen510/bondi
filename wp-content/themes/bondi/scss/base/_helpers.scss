@@ -13,6 +13,16 @@
   }
 }
 
+.bg {
+  &--blue {
+    background: $dark-blue;
+  }
+
+  &--yellow {
+    background: $yellow;
+  }
+}
+
 .container {
   width: 1170px;
   margin: auto;

@@ -1,0 +1,22 @@
+.services {
+  &__list {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    text-align: center;
+
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  &__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $light-yellow;
+  }
+}

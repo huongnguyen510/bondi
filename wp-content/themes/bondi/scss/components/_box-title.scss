@@ -8,27 +8,31 @@
 
   &__title {
     font-size: 35px;
-    color: #1a2940;
+    color: $navy-blue;
     margin-bottom: 13px;
   }
 
   &__subtitle {
     font-size: 15px;
-    color: #a8b9c0;
+    color: $gray-blue;
     font-weight: 400;
     margin-bottom: 14px;  
   }
 
   &__border {
-    border: 1px solid #00c6bf;
+    border: 1px solid $border;
     width: 150px;
     margin: auto;
     margin-bottom: 13px;
   }
 
   &__desc {
-    width: 85%;
+    width: 50%;
     margin: auto;
     margin-bottom: 50px;
+
+    &--long {
+      width: 85%;
+    }
   }
 }

@@ -1,0 +1,26 @@
+.about {
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__image {
+    order: 2;
+    width: 50%;
+  }
+
+  &__text {
+    order: 1;
+    width: 50%;
+  }
+
+  &__inner {
+    width: 70%;
+  }
+
+  &__body {
+    margin-bottom: 15px;
+  }
+}
